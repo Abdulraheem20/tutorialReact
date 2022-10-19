@@ -1,0 +1,12 @@
+.col {
+  width: 300px;
+  background-color: goldenrod;
+  box-shadow: 1px 2px 3px;
+  border-radius: 5px;
+  padding: 10px;
+  display: block;
+  margin: 25px auto;
+}
+.col strong {
+  font-size: 33px;
+}
