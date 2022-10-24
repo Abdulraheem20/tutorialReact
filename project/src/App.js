@@ -1,4 +1,5 @@
 import "./App.css";
+import BootExample from "./component/BootExample";
 import FirstComp from "./component/FirstComp";
 import Second from "./component/Second";
 import Copyright from "./component/Copyright";
@@ -14,11 +15,18 @@ import ClassCondtn from "./component/ClassCondtn";
 import Hook1 from "./component/Hook1";
 import Hook2 from "./component/Hook2";
 import MapCard1 from "./component/MapCard1";
+import Display from "./component/Display";
+import PractMap1 from "./component/PractMap1";
+import Carsel from "./component/Carsel";
+import AddUppBtnn from "./component/AddUppBtnn";
+import HookApi from "./component/HookApi";
 
 function App() {
   return (
     <div className="App">
       <h1>Hello World</h1>
+      <BootExample/>
+      <Carsel/>
       <FirstComp />
       <Second />
       <Copyright />
@@ -32,12 +40,16 @@ function App() {
       />
       <Fifth />
       <Counter />
-      <ClassEffectCont />
+      {/* <ClassEffectCont /> */}
       <Timer />
       <ClassCondtn />
       <Hook1 />
       <Hook2 />
       <MapCard1 />
+      <Display/>
+      <PractMap1/>
+      <AddUppBtnn/>
+      <HookApi/>
     </div>
   );
 }
