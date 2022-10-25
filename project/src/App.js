@@ -20,6 +20,7 @@ import PractMap1 from "./component/PractMap1";
 import Carsel from "./component/Carsel";
 import AddUppBtnn from "./component/AddUppBtnn";
 import HookApi from "./component/HookApi";
+import RandNumb from "./component/RandNumb";
 
 function App() {
   return (
@@ -50,6 +51,7 @@ function App() {
       <PractMap1/>
       <AddUppBtnn/>
       <HookApi/>
+      <RandNumb/>
     </div>
   );
 }
