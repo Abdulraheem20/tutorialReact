@@ -6,7 +6,7 @@ const RandNumb = () => {
 
     useEffect(()=>{
         const getNum = function () {
-            return setRandNum(Math.floor(Math.random() * 100)+ 1)
+            return [...randNum, setRandNum(Math.floor(Math.random() * 100)+ 1)]
         }
         // console.log(randNum)
         getNum()
@@ -17,7 +17,7 @@ const RandNumb = () => {
             <h1>{count}:  {randNum}</h1>
         <button onClick={()=>{
              setCount(count + 1)
-            //  setRandNum(Math.floor(Math.random() * 100)+ 1)
+             setRandNum(Math.floor(Math.random() * 100)+ 1)
              console.log(``)
              randNum.map(itr=>
                 // {console.log(`${itr.count}: ${itr.setRandNum} `)},
