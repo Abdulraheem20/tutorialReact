@@ -1,4 +1,6 @@
 // import "./App.css"; 
+import ContextHook from "./component/ContextHook";
+import Shop from "./component/Shop";
 import Sub from "./component/Sub";
 
 
@@ -32,6 +34,8 @@ function App() {
   return (
     <div className="App">
       <Sub/>
+      <ContextHook/>
+      <Shop/>
       {/* <h1>Hello World</h1> */}
       {/*
       <BootExample />
