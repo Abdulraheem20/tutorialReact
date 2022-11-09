@@ -1,5 +1,6 @@
 import React, { lazy, Suspense } from 'react'
 import {BrowserRouter as Router, Routes, Route} from 'react-router-dom'
+import NoMatch from '../pages/NoMatch'
 // import About from '../pages/About'
 // import Home from '../pages/Home'
 import ReactNavbr from '../pages/ReactNavbr'
@@ -20,6 +21,7 @@ const Sub = () => {
             <Route path='/about' element={<About/>} />
             <Route path='/services' element={<Services/>} />
             <Route path='/services/:id' element={<DisplayService/>}/>
+            <Route path='*' element={<NoMatch/>}/>
         </Routes>
         </Suspense>
 
